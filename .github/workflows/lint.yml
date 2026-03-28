@@ -1,4 +1,4 @@
-name: JSON Lint
+name: Lint
 
 on:
   push:
