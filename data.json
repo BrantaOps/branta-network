@@ -1,9 +1,10 @@
 {
   "wallets": [
     {
-      "name": "Zap Cooking",
+      "name": "Zap.Cooking Wallet",
       "logo": "https://zap.cooking/zap_cooking_logo_white.svg",
-      "website_url": "https://zap.cooking"
+      "website_url": "https://zap.cooking",
+      "block_height": 942531
     },
     {
       "name": "Arkade",
