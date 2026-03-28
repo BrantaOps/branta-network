@@ -1,14 +1,10 @@
 name: JSON Lint
 
 on:
-  pull_request:
-    paths:
-      - '**/*.json'
   push:
-    branches:
-      - '**'
-    paths:
-      - '**/*.json'
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   lint:
