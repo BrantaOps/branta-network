@@ -4,6 +4,11 @@
       "name": "Zap Cooking",
       "logo": "https://zap.cooking/zap_cooking_logo_white.svg",
       "website_url": "https://zap.cooking"
+    },
+    {
+      "name": "Arkade",
+      "logo": "https://branta.pro/assets/ark.svg",
+      "website_url": "https://arkade.money"
     }
   ],
   "btcpay": [
