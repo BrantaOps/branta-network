@@ -8,7 +8,8 @@
     {
       "name": "Arkade",
       "logo": "https://branta.pro/assets/ark.svg",
-      "website_url": "https://arkade.money"
+      "website_url": "https://arkade.money",
+      "block_height": "942,635"
     }
   ],
   "btcpay": [
