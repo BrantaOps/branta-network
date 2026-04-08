@@ -17,13 +17,88 @@ jobs:
         with:
           node-version: '20'
           
-      - name: Install jsonlint
-        run: npm install -g jsonlint
+      - name: Install dependencies
+        run: |
+          npm install -g jsonlint
+          npm install ajv
         
+      - name: Create JSON Schema
+        run: |
+          cat > schema.json << 'EOF'
+          {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "type": "object",
+            "properties": {
+              "wallets": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["name", "logo", "website_url", "block_height"],
+                  "properties": {
+                    "name": {"type": "string"},
+                    "logo": {
+                      "type": "string",
+                      "pattern": "^https://.*"
+                    },
+                    "website_url": {
+                      "type": "string",
+                      "pattern": "^https://.*"
+                    },
+                    "block_height": {"type": "integer"}
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "btcpay": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["name", "logo", "website_url"],
+                  "properties": {
+                    "name": {"type": "string"},
+                    "logo": {
+                      "type": "string",
+                      "pattern": "^https://.*"
+                    },
+                    "website_url": {
+                      "type": "string",
+                      "pattern": "^https://.*"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": ["wallets", "btcpay"],
+            "additionalProperties": false
+          }
+          EOF
+          
       - name: Lint JSON files
         run: |
           find . -name "*.json" -not -path "./node_modules/*" -not -path "./.git/*" | \
           while read file; do
             echo "Linting $file"
             jsonlint "$file" || exit 1
+            
+            echo "Validating schema for $file"
+            node -e "
+              const Ajv = require('ajv');
+              const ajv = new Ajv();
+              const fs = require('fs');
+              
+              const schema = JSON.parse(fs.readFileSync('schema.json', 'utf8'));
+              const data = JSON.parse(fs.readFileSync('$file', 'utf8'));
+              
+              const validate = ajv.compile(schema);
+              const valid = validate(data);
+              
+              if (!valid) {
+                console.error('Schema validation failed for $file:');
+                console.error(JSON.stringify(validate.errors, null, 2));
+                process.exit(1);
+              }
+              
+              console.log('Schema validation passed for $file');
+            " || exit 1
           done
