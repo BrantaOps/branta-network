@@ -11,6 +11,12 @@
       "logo": "https://branta.pro/assets/ark.svg",
       "website_url": "https://arkade.money",
       "block_height": 942635
+    },
+    {
+      "name": "Manna",
+      "logo": "https://www.branta.pro/assets/wallets-manna.png",
+      "website_url": "https://mannabitcoin.com",
+      "block_height": 927186
     }
   ],
   "btcpay": [
