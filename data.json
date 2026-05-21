@@ -17,6 +17,17 @@
       "logo": "https://www.branta.pro/assets/wallets-manna.png",
       "website_url": "https://mannabitcoin.com",
       "block_height": 927186
+    },
+    {
+      "name": "Second",
+      "logo": "https://branta.pro/assets/wallets-second.svg",
+      "website_url": "https://second.tech",
+      "block_height": 945377
+    },
+    {
+      "name": "Blitz",
+      "logo": "https://branta.pro/assets/blitz-wallet-app-icon.png",
+      "coming_soon": true
     }
   ],
   "btcpay": [
