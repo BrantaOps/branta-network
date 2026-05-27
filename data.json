@@ -27,7 +27,8 @@
     {
       "name": "Blitz",
       "logo": "https://branta.pro/assets/blitz-wallet-app-icon.png",
-      "coming_soon": true
+      "website_url": "https://blitzwalletapp.com",
+      "block_height": 951069
     }
   ],
   "btcpay": [
