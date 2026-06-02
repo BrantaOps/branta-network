@@ -29,6 +29,12 @@
       "logo": "https://branta.pro/assets/blitz-wallet-app-icon.png",
       "website_url": "https://blitzwalletapp.com",
       "block_height": 951069
+    },
+     {
+      "name": "Buho",
+      "logo": "https://branta.pro/assets/buho_logo_grey.svg",
+      "website_url": "https://home.mybuho.de/buhogo.de",
+      "coming_soon": true
     }
   ],
   "btcpay": [
