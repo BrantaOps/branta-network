@@ -52,7 +52,7 @@
       "name": "Bold Wallet",
       "logo": "https://boldbitcoinwallet.com/ic_launcher.png",
       "website_url": "https://boldbitcoinwallet.com",
-      "coming_soon": true
+      "block_height": 958189
     }
   ],
   "btcpay": [
