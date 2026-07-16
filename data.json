@@ -53,6 +53,12 @@
       "logo": "https://boldbitcoinwallet.com/ic_launcher.png",
       "website_url": "https://boldbitcoinwallet.com",
       "block_height": 958189
+    },
+    {
+      "name": "Zeus",
+      "logo": "https://branta.pro/assets/zeus.svg",
+      "website_url": "https://zeusln.com",
+      "coming_soon": true
     }
   ],
   "btcpay": [
