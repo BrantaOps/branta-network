@@ -65,6 +65,12 @@
       "logo": "https://branta.pro/assets/zeus.svg",
       "website_url": "https://zeusln.com",
       "coming_soon": true
+    },
+    {
+      "name": "COINCUBE",
+      "logo": "https://branta.pro/assets/coincube.png",
+      "website_url": "https://coincube.io",
+      "coming_soon": true
     }
   ],
   "btcpay": [
