@@ -36,6 +36,12 @@
       "website_url": "https://home.mybuho.de/buhogo",
       "block_height": 952547
     },
+     {
+      "name": "Lotus",
+      "logo": "https://branta.pro/assets/lotus_workspace.png",
+      "website_url": "https://lotus.mybuho.de/about",
+      "block_height": 958893
+    },
     {
       "name": "satsigner",
       "logo": "https://branta.pro/assets/satsigner.png",
