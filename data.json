@@ -88,11 +88,6 @@
       "name": "Italy",
       "logo": "https://branta.pro/assets/btcpay-logo.svg",
       "website_url": "https://www.btcpayserver.it"
-    },
-    {
-      "name": "pay.branta.pro",
-      "logo": "https://branta.pro/assets/branta-b.png",
-      "website_url": "https://pay.branta.pro"
     }
   ]
 }
