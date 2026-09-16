@@ -71,6 +71,12 @@
       "logo": "https://branta.pro/assets/coincube.png",
       "website_url": "https://coincube.io",
       "coming_soon": true
+    },
+    {
+      "name": "Archipelago",
+      "logo": "https://branta.pro/assets/archipelago.png",
+      "website_url": "https://demo.archipelago-foundation.org",
+      "coming_soon": true
     }
   ],
   "btcpay": [
