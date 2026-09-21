@@ -43,12 +43,6 @@
       "block_height": 958893
     },
     {
-      "name": "satsigner",
-      "logo": "https://branta.pro/assets/satsigner.png",
-      "website_url": "https://github.com/satsigner/satsigner",
-      "coming_soon": true
-    },
-    {
       "name": "Angor",
       "logo": "https://branta.pro/assets/angor.png",
       "website_url": "https://angor.io",
