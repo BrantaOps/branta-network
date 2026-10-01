@@ -64,7 +64,7 @@
       "name": "COINCUBE",
       "logo": "https://branta.pro/assets/coincube.png",
       "website_url": "https://coincube.io",
-      "coming_soon": true
+      "block_height": 969440
     },
     {
       "name": "Archipelago",
