@@ -83,6 +83,12 @@
       "logo": "https://branta.pro/assets/coinsnap.jpg",
       "website_url": "https://coinsnap.io/wallet/",
       "coming_soon": true
+    },
+    {
+      "name": "Coinsnap",
+      "logo": "https://branta.pro/assets/satsigner.png",
+      "website_url": "https://satsigner.com",
+      "coming_soon": true
     }
   ],
   "btcpay": [
