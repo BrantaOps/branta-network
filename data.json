@@ -77,6 +77,12 @@
       "logo": "https://www.branta.pro/assets/shakesco.jpg",
       "website_url": "https://shakesco.com/blog/partnership-with-branta",
       "coming_soon": true
+    },
+    {
+      "name": "Coinsnap",
+      "logo": "https://branta.pro/assets/coinsnap.jpg",
+      "website_url": "https://coinsnap.io/wallet/",
+      "coming_soon": true
     }
   ],
   "btcpay": [
