@@ -1,7 +1,7 @@
 {
   "wallets": [
     {
-      "name": "Zap.Cooking Wallet",
+      "name": "Zap Cooking",
       "logo": "https://zap.cooking/zap_cooking_logo_white.svg",
       "website_url": "https://zap.cooking",
       "block_height": 942531
@@ -19,7 +19,7 @@
       "block_height": 927186
     },
     {
-      "name": "Bark Wallet",
+      "name": "Bark",
       "logo": "https://branta.pro/assets/wallets-second.svg",
       "website_url": "https://second.tech",
       "block_height": 945377
@@ -49,7 +49,7 @@
       "block_height": 956227
     },
     {
-      "name": "Bold Wallet",
+      "name": "Bold",
       "logo": "https://boldbitcoinwallet.com/ic_launcher.png",
       "website_url": "https://boldbitcoinwallet.com",
       "block_height": 958189
