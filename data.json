@@ -89,6 +89,12 @@
       "logo": "https://branta.pro/assets/satsigner.png",
       "website_url": "https://satsigner.com",
       "coming_soon": true
+    },
+    {
+      "name": "Kute",
+      "logo": "https://branta.pro/assets/kute.png",
+      "website_url": "https://kutewallet.com",
+      "coming_soon": true
     }
   ],
   "btcpay": [
